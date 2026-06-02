@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             {/* Navigation */}
             <nav className='hidden md:flex items-center gap-10'>
-                <ul className='flexx gap-8'>
+                <ul className='flex gap-8'>
                     {menuItems.map((item) => (
                         <li key={item.name}>
                             <button onClick={() => scrollToSection(item.href)}
