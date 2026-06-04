@@ -3,6 +3,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
+import Education from './components/Education'
 
 const app = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const app = () => {
     <div className='bg-[#111827] min-h-screen'>
       <Header />
       <HeroSection />
+      <Education />
     </div>
   )
 }
