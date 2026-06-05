@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Education from './components/Education'
+import Certificates from './components/Certificates'
 
 const app = () => {
   useEffect(() => {
@@ -18,6 +19,7 @@ const app = () => {
       <Header />
       <HeroSection />
       <Education />
+      <Certificates />
     </div>
   )
 }

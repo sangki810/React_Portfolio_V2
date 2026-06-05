@@ -11,10 +11,10 @@ const HeroSection = () => {
             <div className='h-20 w-3/4 bg-linear-to-r from-[#289eff] opacity-40 blur-2xl'></div>
         </div>
         <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
-            <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none mx-w-2xl md:maxw-3xl mx-auto'>
+            <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none mx-w-2xl md:max-w-3xl mx-auto'>
                 <div className='lg:py-6'>
                     <div className='text-center lg:text-left'>
-                        <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg-text-6xl'>
+                        <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                             Hi, I'm{' '}
                             <span className='text-transparent bg-clip-text bg-linear-to-r from-primary to-cyan-200'>
                                 Sangki
@@ -22,7 +22,7 @@ const HeroSection = () => {
                             
                         </h1>
                     </div>
-                    <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
+                    <p className='text-gray-300 pt-8 text-center lg:text-left max-auto max-w-xl'>
                         I am a 1.5 generation Korean-American who moved to the states in 2006 from South Korea. 
                         I received all primary education in Gainesville, Florida and graduated from the University 
                         of Florida in 2020. Currently I am taking the UCF FSF Coding Bootcamp and learning the various 
@@ -58,8 +58,7 @@ const HeroSection = () => {
                         <div className='absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16
                             rounded-[30%_70%_70%_30%/30%_30%_70%_70%] shadow-lg border border-cyan-500'>
                             <img src={hero} alt="Hero Pic" width="500" height="auto" loading='lazy' className='w-full h-full
-                                rounded-[30%_70%_70%_30%/30%_30%_70%_70%] object-cover'>
-                            </img>
+                                rounded-[30%_70%_70%_30%/30%_30%_70%_70%] object-cover'/>
                         </div>
                     </div>
                 </div>

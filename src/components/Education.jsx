@@ -13,13 +13,6 @@ const Education = () => {
         },
         {
             id: 2,
-            degree: 'Certificate in Full Stack Web Development',
-            institution: 'University of Central Florida',
-            duration: 'Sep 2022 - Dec 2022',
-            details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-        },
-        {
-            id: 3,
             degree: 'Bachelor of Science in Psychology',
             institution: 'University of Florida',
             duration: 'Aug 2016 - May 2020',
