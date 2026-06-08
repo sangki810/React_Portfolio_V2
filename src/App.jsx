@@ -5,6 +5,7 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Education from './components/Education'
 import Certificates from './components/Certificates'
+import AboutSection from './components/AboutSection'
 
 const app = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const app = () => {
       <HeroSection />
       <Education />
       <Certificates />
+      <AboutSection />
     </div>
   )
 }

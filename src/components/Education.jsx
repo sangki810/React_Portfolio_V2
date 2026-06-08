@@ -28,7 +28,7 @@ const Education = () => {
                         Learning Path
                     </p>
                     <h2 className='text-4xl md:text-5xl font-extrabold text-white'>
-                        Education
+                        Education.
                     </h2>
                 </div>
                 <div className='flex flex-col lg:flex-row items-center gap-16'>
