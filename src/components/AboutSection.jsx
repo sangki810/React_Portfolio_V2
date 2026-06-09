@@ -46,7 +46,7 @@ const AboutSection = () => {
                         </div>
                         <div className='relative z-10 w-full h-full bg-[#111a3e] rounded-full overflow-hidden border
                             border-[#1f1631]'>
-                            <img src={about} alt="about" classnName='w-full h-full object-cover transtion-transform
+                            <img src={about} alt="about" className='w-full h-full object-cover transtion-transform
                                 duration-500 hover:scale-110'/>
                         </div>
                     </div>

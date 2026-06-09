@@ -42,7 +42,7 @@ const Experience = () => {
             date: 'Sep 2019 - Mar 2020'
         },
         {
-            id: 1,
+            id: 3,
             role: 'Student Assistant Librarian',
             company: 'Education Library @ UF',
             date: 'June 2017 - Jan 2019'
