@@ -8,6 +8,7 @@ import Certificates from './components/Certificates'
 import AboutSection from './components/AboutSection'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import ContactSection from './components/ContactSection'
 
 const app = () => {
   useEffect(() => {
@@ -26,6 +27,7 @@ const app = () => {
       <AboutSection />
       <Experience />
       <Projects />
+      <ContactSection />
     </div>
   )
 }
