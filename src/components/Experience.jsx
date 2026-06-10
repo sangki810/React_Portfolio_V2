@@ -49,7 +49,7 @@ const Experience = () => {
         },
     ]
     return (
-        <section className='text-white py-20 relative overflow-hidden' id='skils'>
+        <section className='text-white py-20 relative overflow-hidden' id='skills'>
             <div className='max-w-7xl mx-auto px-6 lg:px-16 relative z-10'>
                 <div className='grid md:grid-cols-2 gap-16 items-start'>
                     <div data-aos='fade-right'>
