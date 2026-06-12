@@ -12,7 +12,7 @@ import Projects from './components/Projects';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
-const app = () => {
+const App = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -39,4 +39,4 @@ const app = () => {
   );
 };
 
-export default app;
+export default App;
