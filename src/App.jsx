@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Education from './components/Education';
@@ -22,13 +23,17 @@ const app = () => {
   return (
     <div className='bg-[#111827] min-h-screen'>
       <Header />
-      <HeroSection />
-      <Education />
-      <Certificates />
-      <AboutSection />
-      <Experience />
-      <Projects />
-      <ContactSection />
+
+      <Routes>
+        <Route path='/' element={<HeroSection />} />
+        <Route path='/education' element={<Education />} />
+        <Route path='/certificates' element={<Certificates />} />
+        <Route path='/about' element={<AboutSection />} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<ContactSection />} />
+      </Routes>
+      
       <Footer />
     </div>
   );
