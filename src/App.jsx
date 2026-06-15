@@ -5,7 +5,6 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Education from './components/Education';
-import Certificates from './components/Certificates';
 import AboutSection from './components/AboutSection';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -27,7 +26,6 @@ const App = () => {
       <Routes>
         <Route path='/' element={<HeroSection />} />
         <Route path='/education' element={<Education />} />
-        <Route path='/certificates' element={<Certificates />} />
         <Route path='/about' element={<AboutSection />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />

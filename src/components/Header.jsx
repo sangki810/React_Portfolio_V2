@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,19 +28,29 @@ const Header = () => {
 
         {/* Desktop */}
         <nav className='hidden md:flex items-center gap-10'>
-          <ul className='flex gap-8'>
-            {menuItems.map((item) => (
-              <li key={item.name}>
-                <Link
-                  to={item.path}
-                  className='text-gray-300 hover:text-white text-base
-                  font-medium transition-colors'
-                >
-                  {item.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+            <ul className='flex gap-8'>
+                {menuItems.map((item) => (
+                    <li key={item.name}>
+                    <NavLink
+                        to={item.path}
+                        className={({ isActive }) =>
+                        `text-base
+                        font-medium
+                        transition-colors
+
+                        ${
+                            isActive
+                            ? 'text-primary border-b-2 border-primary pb-1'
+                            : 'text-gray-300 hover:text-white'
+                        }
+                        `
+                        }
+                    >
+                        {item.name}
+                    </NavLink>
+                    </li>
+                ))}
+            </ul>
 
           <Link
             to='/contact'
