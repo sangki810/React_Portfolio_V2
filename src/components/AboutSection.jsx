@@ -3,7 +3,7 @@ import about from '../assets/about.jpg';
 
 const AboutSection = () => {
     return (
-        <section className='text-white mt-16 relative overflow-hidden' id='about'>
+        <section className='text-white relative overflow-hidden' id='about'>
             <div className='max-w-7xl mx-auto px-4 md:grid md:grid-cols-2 gap-12
                 items-center py-16 xl:px-16 relative z-10'>
                 <div data-aos='fade-right'>
