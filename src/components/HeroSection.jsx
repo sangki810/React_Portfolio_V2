@@ -1,5 +1,6 @@
 import React from 'react';
 import { Download } from "lucide-react";
+import { Link } from 'react-router-dom';
 import hero from '../assets/hero.jpg';
 import resume from '../assets/Sangki_Jun_Resume.pdf';
 
@@ -25,17 +26,17 @@ const HeroSection = () => {
                     <p className='text-gray-300 pt-8 text-center lg:text-left max-auto max-w-xl'>
                         I am a 1.5 generation Korean-American who moved to the states in 2006 from South Korea. 
                         I received all primary education in Gainesville, Florida and graduated from the University 
-                        of Florida in 2020. Currently I am taking the UCF FSF Coding Bootcamp and learning the various 
-                        full-stack developer languages to add to my skill set.
+                        of Florida in 2020. I also took a Coding Bootcamp at University of Central Florida and got an
+                        Associate Degree in Programming and Analysis from Santa Fe College. Let's connect!
                     </p>
                     <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
                         <button className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
                             <span className='absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all
                                 ease-in-out bg-primary border-2 border-transparent'> 
                             </span>
-                            <span className='relative flex items-center justify-center text-white'>
-                                Hire me
-                            </span>
+                            <Link to='/contact' className='relative flex items-center justify-center text-white'>
+                                Contact Me
+                            </Link>
                         </button>
                         <button className='border border-cyan-400 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
                             <div className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
