@@ -12,29 +12,24 @@ const AboutSection = () => {
                         More <span className='text-primary'>About</span> Me
                     </h2>
                     <p className='text-gray-400 text-base lg:text-lg mb-10 leading-relaxed'>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus 
-                        ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus 
-                        duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus 
-                        fringilla lacus nec metus bibendum egestas. 
+                        Versatile professional with a bachelor’s degree in psychology from the University of Florida 
+                        and a Full-Stack Web Development certificate from the University of Central Florida. Recently 
+                        obtained an associate degree in Programming and Analysis at Santa Fe College. Experienced 
+                        in customer relations through roles at the UF Education Library and Scissor Warrior.
                         <br /><br />
-                        Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit 
-                        semper vel class aptent taciti sociosqu. Ad litora torquent per conubia 
-                        nostra inceptos himenaeos.
+                        Proficient in HTML, CSS, JavaScript, Python, C++, and C#, with hands-on experience in React, 
+                        MySQL, and MongoDB. Passionate about web development, software engineering, and problem-solving 
+                        in dynamic environments.
                     </p>
-                    <div className='grid grid-cols-3 gap-6 max-w-xl'>
+                    <div className='grid grid-cols-2 gap-6 max-w-xl'>
                         <div className='text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5
                             transition-all duration-300 hover:border-primary/50'>
-                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+200</h3>
-                            <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>Clients</p>
-                        </div>
-                        <div className='text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5
-                            transition-all duration-300 hover:border-primary/50'>
-                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+300</h3>
+                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+28</h3>
                             <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>Projects</p>
                         </div>
                         <div className='text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5
                             transition-all duration-300 hover:border-primary/50'>
-                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+7</h3>
+                            <h3 className='text-primary font-bold text-2xl md:text-3xl'>+3</h3>
                             <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>Years</p>
                         </div>
                     </div>
