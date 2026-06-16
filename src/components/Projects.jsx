@@ -66,7 +66,7 @@ const Projects = () => {
         },
     ]
     return (
-        <section className='py-16 bg-gray-900' id='projects'>
+        <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" className='py-13 bg-gray-900' id='projects'>
             <div className='container mx-auto px-4 max-w-7xl'>
                 <div className='text-center mb-10'>
                     <h2 className='text-4xl md:text-5xl font-extrabold text-white'>
