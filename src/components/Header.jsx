@@ -97,14 +97,23 @@ const Header = () => {
         <ul className='flex flex-col gap-8'>
           {menuItems.map((item) => (
             <li key={item.name}>
-              <Link
+              <NavLink
                 to={item.path}
                 onClick={() => setIsMenuOpen(false)}
-                className='text-white text-xl
-                hover:text-primary'
+                className={({ isActive }) =>
+                  `
+                  text-xl
+                  transition-colors
+                  ${
+                    isActive
+                      ? 'text-primary font-bold'
+                      : 'text-white hover:text-primary'
+                  }
+                  `
+                }
               >
                 {item.name}
-              </Link>
+              </NavLink>
             </li>
           ))}
 
