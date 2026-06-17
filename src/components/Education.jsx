@@ -9,14 +9,14 @@ const Education = () => {
             degree: 'Associate of Science in Programming and Analysis',
             institution: 'Santa Fe College',
             duration: 'Aug 2024 - May 2026',
-            details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            details: 'The program offered hands-on training and extensive experience in a wide variety of areas. Students learned various programming languages, including C++, C#, MySQL, JavaScript, Java and Python. Students also learned the latest versions of HTML, CSS, and other scripting languages.'
         },
         {
             id: 2,
             degree: 'Bachelor of Science in Psychology',
             institution: 'University of Florida',
             duration: 'Aug 2016 - May 2020',
-            details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+            details: 'Majored in Psychology as Pre-Med student who took all the required science classes. This includes Chemistry, Organic Chemistry, Biology, Microbiology, Genetics, Physics, Statistics and more.'
         },
     ];
     const certificates = [
@@ -26,7 +26,7 @@ const Education = () => {
             issuer: 'University of Central Florida',
             date: 'Sep 2022 - Dec 2022',
             link: 'https://badges.parchment.com/public/assertions/p_SYcLxFSXqNw4nQxUGaGg',
-            desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            desc: 'A 12-week program with 240 contact hours plus individual and group projects utilizing HTML/CSS, Javascript, third-party APIs (jQuery, Bootstrap), API Consumption, Git, MySQL, Node.js, Authentication, ORM, Template Engines, and Express.js.',
         },
     ];
     return (
