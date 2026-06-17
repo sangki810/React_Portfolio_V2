@@ -43,7 +43,7 @@ const ContactSection = () => {
                     <div className='w-28 h-1 bg-primary mx-auto mt-2 rounded-2xl'></div>
                 </div>
                 <div className='grid md:grid-cols-2 gap-8'>
-                    <div>
+                    <div data-aos='fade-right'>
                         <p className='text-gray-400 mb-8 leading-relaxed'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                             labore et dolore magna aliqua.
@@ -79,7 +79,7 @@ const ContactSection = () => {
                         </div>
                     </div>
                     {/* Contact Form */}
-                    <div className='bg-gray-800 rounded-lg p-6'>
+                    <div className='bg-gray-800 rounded-lg p-6' data-aos='fade-left'>
                         <form>
                             <div className='mb-4'>
                                 <label htmlFor="email" className='text-white block mb-2 text-sm font-medium'>
