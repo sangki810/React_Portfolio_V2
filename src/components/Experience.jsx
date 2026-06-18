@@ -7,19 +7,25 @@ const Experience = () => {
             id: 1,
             role: 'Part-Time Assistant',
             company: 'Scissor Warrior',
-            date: 'Apr 2022 - Present'
+            date: 'Apr 2022 - Present',
+            descr: ['\u2022 Taking care of customer interactions',
+                    '\u2022 Managing social media marketing',
+                    '\u2022 Sharpening haircutting scissors']
         },
         {
             id: 2,
             role: 'Student Volunteer',
             company: 'Malcolm Randall Veterans Hospital',
-            date: 'Sep 2019 - Mar 2020'
+            date: 'Sep 2019 - Mar 2020',
+            descr:['\u2022 Clerical work included photocopying documents and folding letters to be sent out to patients']
         },
         {
             id: 3,
             role: 'Student Assistant Librarian',
             company: 'Education Library @ UF',
-            date: 'June 2017 - Jan 2019'
+            date: 'June 2017 - Jan 2019',
+            descr:['\u2022 Handled patron interactions at the front desk, reshelved books, and photocopied journals',
+                   '\u2022 Re-organized all books in the library after the renovation',]
         },
     ]
     return (
@@ -54,6 +60,13 @@ const Experience = () => {
                                                 {exp.date}
                                             </span>
                                         </div>
+                                        <div className='gap-1.5 mt-3'>
+                                            {exp.descr.map((bullet, idx) => (
+                                                <p key={idx} className='text-gray-400 text-sm leading-relaxed my-2'>
+                                                    {bullet}
+                                                </p>  
+                                            ))}
+                                        </div>  
                                     </div>
                                 </div>
                             </div>
