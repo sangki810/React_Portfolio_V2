@@ -16,7 +16,7 @@ const Education = () => {
             degree: 'Bachelor of Science in Psychology',
             institution: 'University of Florida',
             duration: 'Aug 2016 - May 2020',
-            details: 'Majored in Psychology as Pre-Med student who took all the required science classes. This includes Chemistry, Organic Chemistry, Biology, Microbiology, Genetics, Physics, Statistics and more.'
+            details: 'Majored in Psychology as a Pre-Med student who took all the required science classes. This includes Chemistry, Organic Chemistry, Biology, Microbiology, Genetics, Physics, Statistics and more.'
         },
     ];
     const certificates = [
