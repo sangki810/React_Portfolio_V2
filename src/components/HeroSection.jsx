@@ -30,25 +30,22 @@ const HeroSection = () => {
                         Associate Degree in Programming and Analysis from Santa Fe College. Let's connect!
                     </p>
                     <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
-                        <button className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
-                            <span className='absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all
-                                ease-in-out bg-primary border-2 border-transparent'> 
-                            </span>
-                            <Link to='/contact' className='relative flex items-center justify-center text-white'>
+                        <Link to='/contact' className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center items-center 
+                        overflow-hidden'>
+                            <span className='absolute inset-0 rounded-3xl bg-primary group-hover:scale-105 transition-all'/>
+                            <span className='relative text-white'>
                                 Contact Me
-                            </Link>
-                        </button>
-                        <button className='border border-cyan-400 px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
-                            <div className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
-                                <div className='svg-container'>
-                                    <Download size={18}  className='text-primary'/>
-                                    <div className='download-loader text-white hidden'></div>
-                                </div>
-                                <a href={resume} download="Sangki_Jun_Resume.pdf" className='pl-2 text-primary'>
+                            </span>
+                        </Link>
+                        <a href={resume} download='Sangki_Jun_Resume.pdf' className='border border-cyan-400 px-6 md:px-7 py-3 rounded-full relative group 
+                            w-full sm:w-max flex justify-center items-center'>
+                            <div className='hover:scale-105 transition-all flex items-center'>
+                                <Download size={18} className='text-primary' />
+                                <span className='pl-2 text-primary'>
                                     Download Resume
-                                </a>
+                                </span>
                             </div>
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div className='lg:h-full md:flex'>
