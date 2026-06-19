@@ -22,7 +22,7 @@ const Header = () => {
           to='/'
           className='text-white text-3xl font-black'
         >
-          PORTFOLIO
+          SANGKI JUN
           <span className='text-primary'>.</span>
         </Link>
 
