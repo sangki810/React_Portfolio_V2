@@ -62,7 +62,7 @@ const Experience = () => {
                                         </div>
                                         <div className='gap-1.5 mt-3'>
                                             {exp.descr.map((bullet, idx) => (
-                                                <p key={idx} className='text-gray-400 text-sm leading-relaxed my-2'>
+                                                <p key={idx} className='text-gray-400 text-sm leading-relaxed'>
                                                     {bullet}
                                                 </p>  
                                             ))}
