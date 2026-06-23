@@ -5,7 +5,7 @@
 ## Deployed Site
 The site is deployed at [sangki810.github.io/React_Portfolio_V2](https://sangki810.github.io/React_Portfolio_V2/)
 
-![Screenshot of deployed website](https://github.com/sangki810/React_Portfolio_V2/tree/main/src/assets/deployed.png)
+![Screenshot of deployed website](https://github.com/sangki810/React_Portfolio_V2/blob/main/src/assets/deployed.png)
 
 ## Description
 A Software Developer Portfolio using React, Vite, TailWind, and AOS.
