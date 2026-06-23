@@ -78,7 +78,7 @@ const Projects = () => {
                     {projects.map((project) => (
                         <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className='bg-gray-800 rounded-lg overflow-hidden
                             shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300'>
-                            <img src={project.image} alt={project.title} className='w-full h-44 object-cover
+                            <img src={project.image} loading='lazy' alt={project.title} className='w-full h-44 object-cover
                                 hover:opacity-90 transition-opacity duration-300' />
                             <div className='p-4'>
                                 <h3 className='text-lg font-semibold text-white group-hover:text-primary transition-colors'>

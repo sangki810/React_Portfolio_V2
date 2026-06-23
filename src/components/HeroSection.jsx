@@ -1,7 +1,7 @@
 import React from 'react';
 import { Download } from "lucide-react";
 import { Link } from 'react-router-dom';
-import hero from '../assets/hero.jpg';
+import hero from '../assets/Profile_Pic.png';
 import resume from '../assets/Sangki_Jun_Resume.pdf';
 
 const HeroSection = () => {
