@@ -6,7 +6,7 @@ const Experience = () => {
         {
             id: 1,
             role: 'Part-Time Assistant',
-            company: 'Scissor Warrior',
+            company: 'JP Plan, LLC',
             date: 'Apr 2022 - Present',
             descr: ['\u2022 Taking care of customer interactions',
                     '\u2022 Managing social media marketing',
