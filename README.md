@@ -8,4 +8,10 @@ The site is deployed at [sangki810.github.io/React_Portfolio_V2](https://sangki8
 ![Screenshot of deployed website](https://github.com/sangki810/React_Portfolio_V2/blob/main/src/assets/deployed.png)
 
 ## Description
-A Software Developer Portfolio using React, Vite, TailWind, and AOS.
+A Software Developer Portfolio using React, Vite, TailWind, and AOS Animations.
+
+## License
+MIT License
+
+## Contact
+Sangki Jun - [LinkedIn](https://www.linkedin.com/in/sangki-jun/) - [Email](mailt0:sangki810@gmail.com)
