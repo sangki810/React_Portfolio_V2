@@ -14,4 +14,4 @@ A Software Developer Portfolio using React, Vite, TailWind, and AOS Animations.
 MIT License
 
 ## Contact
-Sangki Jun - [LinkedIn](https://www.linkedin.com/in/sangki-jun/) - [Email](mailt0:sangki810@gmail.com)
+Sangki Jun - [LinkedIn](https://www.linkedin.com/in/sangki-jun/) - [Email](mailto:sangki810@gmail.com)
