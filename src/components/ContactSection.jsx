@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { FaEnvelope, FaLinkedin, FaMapMarkedAlt, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaMapMarkedAlt, FaPhone, FaGithub } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 
 const ContactSection = () => {
@@ -22,11 +22,18 @@ const ContactSection = () => {
             id: 3,
             icon: FaLinkedin,
             title: 'LinkedIn',
-            value: 'linkedin.com/in/sangki-jun/',
+            value: 'linkedin.com/in/sangki-jun',
             link: 'https://www.linkedin.com/in/sangki-jun/'
         },
         {
             id: 4,
+            icon: FaGithub,
+            title: 'GitHub',
+            value: 'github.com/sangki810',
+            link: 'https://github.com/sangki810'
+        },
+        {
+            id: 5,
             icon: FaMapMarkedAlt,
             title: 'Location',
             value: 'Gainesville, FL',
