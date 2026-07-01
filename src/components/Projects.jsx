@@ -6,10 +6,19 @@ import Blog from '../assets/tech-blog.png';
 import Jate from '../assets/module-19-challenge-jate.jpg';
 import Finder from '../assets/Game-Finder.jpg';
 import Weather from '../assets/weather-dashboard.jpg';
+import game from '../assets/game.png';
 const Projects = () => {
     const projects = [
         {
             id: 1,
+            image: game,
+            title: '2D Farm Game',
+            desc: 'A 2D farm game where the player can plant crops, water them, and harvest them to their inventory. Deployed on a github account created specifically for a course.',
+            tech: ['Unity', 'C#'],
+            url: 'https://github.com/51013360/F25-COP2671-0T1-51013360/tree/main/Projects/Final%20Project/MyFinalProject',
+        },
+        {
+            id: 2,
             image: LockBox,
             title: 'LockBox',
             desc: 'A secure, portable password manager that works on Windows, Mac, and Linux',
@@ -17,7 +26,7 @@ const Projects = () => {
             url: 'https://github.com/0ff-by-0ne/LockBox',
         },
         {
-            id: 2,
+            id: 3,
             image: Postal,
             title: 'US Posta & Printing',
             desc: 'US Postal & Printing is a full stack MERN web app that serves as an information page for the company US Postal & Printing',
@@ -25,7 +34,7 @@ const Projects = () => {
             url: 'https://github.com/Mateo-Wallace/US-Postal-Printing',
         },
         {
-            id: 3,
+            id: 4,
             image: Cinema,
             title: 'CINEMAfiles',
             desc: 'This immersive app calls all cinema and devoted movie lovers to lookup their favorite cinema title',
@@ -33,7 +42,7 @@ const Projects = () => {
             url: 'https://github.com/sangki810/Project-2-The-Cinemaphiles',
         },
         {
-            id: 4,
+            id: 5,
             image: Blog,
             title: 'Tech Blog',
             desc: 'A full stack web application that allows users to make social media posts and comment on other posts',
@@ -41,7 +50,7 @@ const Projects = () => {
             url: 'https://github.com/sangki810/Module-14-Challenge-Tech-Blog-by-Sangki-Jun',
         },
         {
-            id: 5,
+            id: 6,
             image: Jate,
             title: 'JATE - Just Another Text Editor',
             desc: 'A web app that allows users to save notes and view them at a later time',
@@ -49,7 +58,7 @@ const Projects = () => {
             url: 'https://github.com/sangki810/Module-11-Challenge-Note-Taker-by-Sangki-Jun',
         },
         {
-            id: 6,
+            id: 7,
             image: Finder,
             title: 'Game Finder',
             desc: 'A game finder site that fetches an image, description, platforms, genres, and a youtube video of the game title that is searched',
@@ -57,7 +66,7 @@ const Projects = () => {
             url: 'https://github.com/IanMosur06/Project-1-Game-Finder',
         },
         {
-            id: 7,
+            id: 8,
             image: Weather,
             title: 'Weather Dashboard',
             desc: 'This functions as a weather dashboard for any city that is looked up within the search bar',
