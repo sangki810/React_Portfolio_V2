@@ -30,7 +30,7 @@ const Education = () => {
         },
     ];
     return (
-        <section className='text-white pt-10 px-20 pb-0 overflow-hidden' id='education'>
+        <section className='text-white pt-10 pb-0 overflow-hidden' id='education'>
             <div className='max-w-7xl mx-auto px-6 lg:px-16'>
                 <div className='mb-16'>
                     <p className='text-primary text-sm uppercase tracking-widest
